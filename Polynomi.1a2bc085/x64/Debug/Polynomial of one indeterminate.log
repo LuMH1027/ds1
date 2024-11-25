@@ -1,0 +1,14 @@
+﻿  LinkList.cpp
+  main.cpp
+  Polynomial.cpp
+  正在生成代码...
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl Polynomial::Polynomial(void)" (??0Polynomial@@QEAA@XZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl Polynomial::~Polynomial(void)" (??1Polynomial@@QEAA@XZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl Polynomial::Show(void)const " (?Show@Polynomial@@QEBAXXZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl Polynomial::Insert(struct PolyItem const &)" (?Insert@Polynomial@@QEAAXAEBUPolyItem@@@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: class Polynomial __cdecl Polynomial::Differentiate(class Polynomial &)" (?Differentiate@Polynomial@@QEAA?AV1@AEAV1@@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: class Polynomial __cdecl Polynomial::operator+(class Polynomial const &)const " (??HPolynomial@@QEBA?AV0@AEBV0@@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: class Polynomial __cdecl Polynomial::operator-(class Polynomial const &)const " (??GPolynomial@@QEBA?AV0@AEBV0@@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: class Polynomial __cdecl Polynomial::operator*(class Polynomial const &)const " (??DPolynomial@@QEBA?AV0@AEBV0@@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: class Polynomial __cdecl Polynomial::operator=(class Polynomial const &)const " (??4Polynomial@@QEBA?AV0@AEBV0@@Z)，函数 main 中引用了该符号
+E:\学习\shu课\数据结构1\Polynomial of one indeterminate\x64\Debug\Polynomial of one indeterminate.exe : fatal error LNK1120: 9 个无法解析的外部命令
